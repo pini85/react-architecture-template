@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 1rem == 10px */
+  font-size: 62.5%;
+  /* in the future use mediaqueries here to change the %, it will make everything bigger or smaller */
+}
+body {
+  box-sizing: border-box;
+  background: var(--black);
+}
+
+a {
+  text-decoration: none;
+}

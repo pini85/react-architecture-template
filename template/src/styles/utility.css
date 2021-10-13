@@ -1,0 +1,8 @@
+/* utilities are simple css codes that you can reuse. Start accumulating
+them and get yourself a nice library. */
+
+:root {
+  --margin-top-big: 8rem;
+  --margin-top-medium: 4rem;
+  --margin-top-small: 1rem;
+}
